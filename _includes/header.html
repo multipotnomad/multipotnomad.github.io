@@ -4,7 +4,7 @@
     <a class="site-title" href="{{ site.baseurl }}/">
       <h1 class="logo-text">{{site.title}}</h1>
     </a>
-   
+
     <nav class="site-nav">
       <a href="#" class="menu-icon">
         <svg viewBox="0 0 18 15">
@@ -20,8 +20,8 @@
           <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
           {% endif %}
         {% endfor %}
-        <a class="page-link" target="_blank" href="https://github.com/sharu725/purple/">Project</a>
-        <a class="page-link" href="https://github.com/sharu725/purple/archive/master.zip">Download</a>
+        <a class="page-link" href="{{ site.url }}">ホーム</a>
+        <a class="page-link" href="http://multipotnomad.github.io/sitemap.xml">記事一覧</a>
       </div>
     </nav>
 
