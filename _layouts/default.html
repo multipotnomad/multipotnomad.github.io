@@ -4,7 +4,7 @@ layout: compress
 
 
 <!DOCTYPE html>
-<html>
+<html lang="ja">
 
   {% include head.html %}
 
@@ -21,17 +21,17 @@ layout: compress
     </div>
 
     {% include footer.html %}
-    
+
 <script>
     (function() {
-        var font = document.createElement('link'); 
-        font.type = 'text/css'; 
+        var font = document.createElement('link');
+        font.type = 'text/css';
         font.rel = 'stylesheet';
         font.href = '{{site.baseurl}}/css/font.css';
-        var s = document.getElementsByTagName('link')[0]; 
+        var s = document.getElementsByTagName('link')[0];
         s.parentNode.insertBefore(font, s);
       })();
-</script>    
+</script>
  {% if site.analytics %}{% include analytics.html %}{% endif %}
 </body>
 </html>
