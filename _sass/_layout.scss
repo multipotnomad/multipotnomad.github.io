@@ -17,9 +17,9 @@
     // Positioning context for the mobile navigation icon
     position: relative;
 
-    background: $color-1; /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, $color-1, $color-2); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(120deg, $color-1 , $color-2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: url('images/purpletokyo.jpg') no-repeat;
+    background-position: 0 60%;
+    background-size: cover;
 
     @include media-query($on-palm) {
         padding: 2em 0 1em 0;
@@ -581,15 +581,17 @@ ul.contact-ul {
 
 //contact form in contact page end
 .logo-text {
-    font-size: 75px;
-    font-weight:600;
+    font-size: 45px;
+    font-weight:normal;
     letter-spacing:2px;
     color: #fff;
     text-transform: uppercase;
+    margin-bottom: 190px;
     &:hover {
         text-shadow: 0px 0px 2px;
     }
     @include media-query($on-palm) {
-        font-size: 30px;
+        font-size: 18px;
+        margin-bottom: 0;
     }
 }
