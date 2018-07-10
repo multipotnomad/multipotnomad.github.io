@@ -55,8 +55,13 @@
     display: block;
     line-height: 56px;
     font-weight: 100;
-    text-align: center;
     font-size: 18px;
+    position: absolute;
+    bottom: -56px;
+    right: 0;
+    left: 0;
+    margin: auto;
+    text-align: center;
 
     .menu-icon {
         display: none;
