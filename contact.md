@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Contact
+title: お問い合わせ
 permalink: /contact/
 ---
 
@@ -23,11 +23,11 @@ I would love to hear from you. Any query, any suggestion or feedback would be gr
                 <label class="contact-label" for="message">Message:</label>
                 <textarea class="contact-textarea" placeholder="Your message" class="contact-input" rows="4" id="message" name="message" tabindex="3"></textarea>
             </li>
-            
+
         </ul>
         <input type="submit" value="Send" id="submit"/>
         <input type="hidden" name='redirect_to' value="http://blog.webjeda.com/thank-you/" />
-        
+
 </form>
 
 

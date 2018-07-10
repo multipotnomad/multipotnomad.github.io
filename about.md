@@ -1,7 +1,7 @@
 ---
 layout: page
-title: About
+title: このサイトについて
 permalink: /about/
 ---
 
-This is a sample about page.
+自由に旅をしながら情熱と意味を持って仕事を生み出すマルチポテンシャライト、起業家、ノマドワーカーたちを世界中で取材し発信するサイトです。
