@@ -11,7 +11,6 @@ description: > # this means to ignore newlines until "baseurl:"
   自由に旅をしながら情熱と意味を持って仕事を生み出すマルチポテンシャライト、起業家、ノマドワーカーたちを世界中で取材し発信するサイト。
 keywords: > # this means to ignore newlines until "baseurl:"
   マルチポテンシャライト、起業家、ノマドワーカー、ノマド、旅、仕事、就活、新卒、情熱、意味、生み出す、作り出す、世界、取材、動画。
-baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://multipotnomad.github.io" # the base hostname & protocol for your site #footer built by link
 
 
@@ -20,7 +19,7 @@ permalink: /:title/
 
 #color scheme - Purple theme
 color-1: '#6a3093'
-color-2: '#a044ff'
+color-2: '#d0c8c8'
 
 #Endless-River theme - remove the '#'
 #color-1: '#155799'
@@ -42,3 +41,10 @@ disqus-shortname: webjeda-sample    #Disqus comments
 
 plugins:
   - jekyll-sitemap
+
+# Adding front matter to static files
+defaults:
+  - scope:
+      path: "dev/img"
+    values:
+      image: true
