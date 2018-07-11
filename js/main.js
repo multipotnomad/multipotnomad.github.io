@@ -24,3 +24,9 @@ function closeNav() {
     $(".site-title").removeClass("is-hidden");
   }
 }
+
+
+// disqus to japanese
+var disqus_config = function () {
+  this.language = "ja";
+};

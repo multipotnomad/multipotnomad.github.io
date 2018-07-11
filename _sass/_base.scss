@@ -131,7 +131,7 @@ blockquote {
     > :last-child {
         margin-bottom: 0;
     }
-    
+
     @include media-query($on-palm) {
         margin-left: 1em;
     }
@@ -164,13 +164,13 @@ pre {
             @include media-query($on-palm) {
             display: block;
     }
-    
-    
+
+
     > code {
         border: 0;
         padding-right: 0;
         padding-left: 0;
-        
+
 
     }
 }
@@ -206,4 +206,12 @@ pre {
     }
 }
 
-
+/**
+ * iframe
+ */
+ iframe {
+   @include media-query($on-palm) {
+     width: 100%;
+     height: auto;
+   }
+ }

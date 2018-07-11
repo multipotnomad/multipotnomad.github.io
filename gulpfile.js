@@ -12,7 +12,7 @@ var runSequence = require('run-sequence');
 // });
 
 gulp.task('images', function(){
-  return gulp.src('dev/images/**/*.+(png|jpg|jpeg|gif|svg)')
+  return gulp.src('dev/images/**/*.+(png|jpg|jpeg|gif|svg|ico)')
   // Caching images that ran through imagemin
   .pipe(cache(imagemin({
       interlaced: true
