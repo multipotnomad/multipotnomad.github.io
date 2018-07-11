@@ -14,7 +14,7 @@ keywords: > # this means to ignore newlines until "baseurl:"
 url: "http://multipotnomad.github.io" # the base hostname & protocol for your site #footer built by link
 
 
-baseurl: "/multipotnomad"
+# baseurl: ""
 permalink: /:title/
 
 #color scheme - Purple theme
