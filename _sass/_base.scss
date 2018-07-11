@@ -90,12 +90,9 @@ li {
 h1, h2, h3, h4, h5, h6 {
     font-family: $head-font-family;
     color: #555;
-    font-weight: bold;
+    font-weight: 100;
 }
 
-h1{
-    color: $color-1;
-}
 
 /**
  * Links
@@ -138,7 +135,12 @@ blockquote {
 
 }
 
-
+/**
+ * form
+ */
+input, textarea, select, button {
+  font-size: 18px;
+}
 
 /**
  * Code formatting
