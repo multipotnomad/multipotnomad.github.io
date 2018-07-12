@@ -18,7 +18,7 @@ url: "http://multipotnomad.github.io" # the base hostname & protocol for your si
 permalink: /:title/
 
 #color scheme - Purple theme
-color-1: '#093377'
+color-1: '#555'
 color-2: '#d0c8c8'
 
 #Endless-River theme - remove the '#'
@@ -29,6 +29,7 @@ color-2: '#d0c8c8'
 f: mizuki.kawano.96  # facebook username
 t: multipotnomad  # twitter handle
 i: mizuki._.chi # instagram username
+y: multipotnomad # youtube channel
 
 # Build settings
 markdown: kramdown
