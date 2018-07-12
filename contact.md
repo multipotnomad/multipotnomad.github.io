@@ -9,7 +9,7 @@ permalink: /contact/
 
 
 
-<form id="contact-form" class="form" action="https://getsimpleform.com/messages?form_api_token=b6d4be9b039b666b3311e1ddcbfb577c" method="POST" enctype="multipart/form-data">
+<form id="contact-form" class="form" action="https://getsimpleform.com/messages?form_api_token=4275d0416e7a7ca175a9cb172af816f8" method="POST" enctype="multipart/form-data">
         <ul class="contact-ul">
             <li class="contact-li">
                 <label class="contact-label" for="name">お名前:</label>
@@ -26,7 +26,7 @@ permalink: /contact/
 
         </ul>
         <input type="submit" value="送信" id="submit"/>
-        <input type="hidden" name='redirect_to' value="http://blog.webjeda.com/thank-you/" />
+        <input type="hidden" name='redirect_to' value="http://multipotnomad.github.io/thank-you/" />
 
 </form>
 
