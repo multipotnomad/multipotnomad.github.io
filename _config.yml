@@ -19,7 +19,7 @@ permalink: /:title/
 
 #color scheme - Purple theme
 color-1: '#555'
-color-2: '#d0c8c8'
+color-2: '#998e8e'
 
 #Endless-River theme - remove the '#'
 #color-1: '#155799'
@@ -28,8 +28,8 @@ color-2: '#d0c8c8'
 #footer icons
 f: mizuki.kawano.96  # facebook username
 t: multipotnomad  # twitter handle
-i: mizuki._.chi # instagram username
-y: multipotnomad # youtube channel
+i: mizuki._.kawano # instagram username
+y: UCjEc3Ad6TFt9r2IFD0-46xg # youtube channel
 
 # Build settings
 markdown: kramdown
@@ -38,7 +38,7 @@ sass:
 
 #Other
 # analytics: 'UA-83979019-1'
-disqus-shortname: webjeda-sample    #Disqus comments
+disqus-shortname: multipotnomad    #Disqus comments
 
 plugins:
   - jekyll-sitemap
