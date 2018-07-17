@@ -33,3 +33,9 @@ gulp.task('default', function (callback) {
     callback
   );
 });
+
+
+// Gulp watch
+gulp.task('watch', function(){
+  gulp.watch('dev/images/**/*.+(png|jpg|jpeg|gif|svg|ico)', ['images']);
+});
