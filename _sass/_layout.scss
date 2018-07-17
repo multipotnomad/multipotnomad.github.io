@@ -23,6 +23,7 @@
 
     @include media-query($on-palm) {
       background: url("/dist/images/sp/purpletokyo.jpg") no-repeat;
+      background-size: cover;
       padding: 2em 0 1em 0;
       height: 8em;
     }
