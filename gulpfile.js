@@ -3,7 +3,7 @@ var imagemin = require('gulp-imagemin');
 var cache = require('gulp-cache');
 var del = require('del');
 var runSequence = require('run-sequence');
-
+var imageResize = require('gulp-image-resize');
 
 // gulp.task('images', function(){
 //   return gulp.src('dev/images/**/*.+(png|jpg|gif|svg)')
@@ -34,8 +34,17 @@ gulp.task('default', function (callback) {
   );
 });
 
+// image resize for sp
+gulp.task('width', function () {
+  gulp.src('dev/images/sp/*.+(png|jpg|jpeg|gif|svg|ico)')
+    .pipe(imageResize({
+      width : 320
+    }))
+    .pipe(gulp.dest('dist/images/sp'));
+});
 
 // Gulp watch
 gulp.task('watch', function(){
   gulp.watch('dev/images/**/*.+(png|jpg|jpeg|gif|svg|ico)', ['images']);
+  gulp.watch('dev/images/sp/*.+(png|jpg|jpeg|gif|svg|ico)', ['width']);
 });
