@@ -23,6 +23,7 @@
 
     @include media-query($on-palm) {
       background: url("/dist/images/sp/purpletokyo.jpg") no-repeat;
+      background-position: 0 60%;
       background-size: cover;
       padding: 2em 0 1em 0;
       height: 8em;
@@ -583,6 +584,9 @@ input#mce-EMAIL:focus {
       width: 100%;
     }
 }
+textarea.contact-input {
+  width: 100%;
+}
 .contact-input::placeholder {
     color: #d8d8d8;
     font-weight: 100;
@@ -599,11 +603,13 @@ input#mce-EMAIL:focus {
 
 ul.contact-ul,
 .contact-submit {
+    width: 34em;
+    max-width: 100%;
     margin: 0;
     padding: 10px;
     @include media-query($on-palm) {
-      width: 14em;
-      margin: auto;
+      padding: 0;
+      width: 100%;
     }
 }
 
@@ -616,9 +622,7 @@ ul.contact-ul,
     width: 5em;
     border-radius: 3px;
     margin-bottom: 8px;
-    @include media-query($on-palm) {
-      float: right;
-    }
+    float: right;
 }
 
 #submit:hover {
@@ -628,9 +632,6 @@ ul.contact-ul,
 
 
 #contact-form {
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
     margin-bottom: 6em;
     @include media-query($on-palm) {
       flex-direction: column;
