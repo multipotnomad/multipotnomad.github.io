@@ -11,7 +11,7 @@ description: > # this means to ignore newlines until "baseurl:"
   自由に旅をしながら情熱と意味を持って仕事を生み出すマルチポテンシャライト、起業家、ノマドワーカーたちを世界中で取材し発信するサイト。
 keywords: > # this means to ignore newlines until "baseurl:"
   マルチポテンシャライト、起業家、ノマドワーカー、ノマド、旅、仕事、就活、新卒、情熱、意味、生み出す、作り出す、世界、取材、動画。
-url: "http://multipotnomad.github.io" # the base hostname & protocol for your site #footer built by link
+url: "https://multipotnomad.github.io" # the base hostname & protocol for your site #footer built by link
 
 
 # baseurl: ""
