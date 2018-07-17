@@ -16,13 +16,9 @@
   </span>
   <nav class="site-nav">
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-      <a class="page-link" href="{{ site.url }}/">ホーム</a>
-      <a class="page-link" href="{{site.url}}/sitemap.xml">記事一覧</a>
-      {% for my_page in site.pages %}
-        {% if my_page.title %}
-        <a class="page-link" href="{{ my_page.url | prepend: site.url }}">{{ my_page.title }}</a>
-        {% endif %}
-      {% endfor %}
+      <a class="page-link" href="{{ site.url }}/">記事一覧</a>
+      <a class="page-link" href="{{site.url}}/about/">このサイトについて</a>
+      <a class="page-link" href="{{site.url}}/contact/">お問い合わせ</a>
   </nav>
 
 </header>
