@@ -2,7 +2,7 @@
 
   <div class="site-header_bg">
     <div class="wrapper wrap-head">
-      <a class="site-title" href="{{ site.baseurl }}/">
+      <a class="site-title" href="{{ site.url }}/">
         <h1 class="logo-text">{{site.title}}</h1>
       </a>
     </div>
@@ -16,11 +16,11 @@
   </span>
   <nav class="site-nav">
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-      <a class="page-link" href="{{ site.baseurl }}/">ホーム</a>
-      <a class="page-link" href="{{site.baseurl}}/sitemap.xml">記事一覧</a>
+      <a class="page-link" href="{{ site.url }}/">ホーム</a>
+      <a class="page-link" href="{{site.url}}/sitemap.xml">記事一覧</a>
       {% for my_page in site.pages %}
         {% if my_page.title %}
-        <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+        <a class="page-link" href="{{ my_page.url | prepend: site.url }}">{{ my_page.title }}</a>
         {% endif %}
       {% endfor %}
   </nav>
