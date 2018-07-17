@@ -131,7 +131,6 @@
 
     .page-link:hover {
         text-decoration: none;
-        color: #eee;
     }
 
     .closebtn {
@@ -140,7 +139,6 @@
     @include media-query($on-palm) {
          .page-link:hover {
         text-decoration: none;
-        color: #fff;
         }
 
         .page-link {
@@ -268,8 +266,8 @@
             line-height: 1;
         }
 }
-a.post-link{color: #555}
-a.post-link:hover{color: $color-1}
+a.post-link{color: $color-2}
+a.post-link:visited{color: #7f789e}
 .post-meta {
     font-size: $small-font-size;
     display: inline-block;
