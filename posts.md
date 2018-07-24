@@ -1,0 +1,29 @@
+---
+layout: default
+---
+<nav class="site-nav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a class="page-link" href="{{ site.url }}/">最新記事</a>
+    <a class="current page-link" href="{{ site.url }}/posts">記事一覧</a>
+    <a class="page-link" href="{{site.url}}/about/">このサイトについて</a>
+    <a class="page-link" href="{{site.url}}/contact/">お問い合わせ</a>
+</nav>
+
+
+<div class="home">
+
+  <h1 class="page-heading">記事一覧</h1>
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+
+
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.url }}">{{ post.title }}</a><span class="post-meta"><small>{{ post.date | date: "%b %-d, %Y" }}</small></span>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+
+</div>
