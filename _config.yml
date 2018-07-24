@@ -38,7 +38,7 @@ sass:
 
 #Other
 # analytics: 'UA-83979019-1'
-disqus-shortname: multipotnomad    #Disqus comments
+# disqus-shortname: multipotnomad    #Disqus comments
 
 plugins:
   - jekyll-sitemap
