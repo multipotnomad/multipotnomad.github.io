@@ -48,3 +48,6 @@ gulp.task('watch', function(){
   gulp.watch('dev/images/**/*.+(png|jpg|jpeg|gif|svg|ico)', ['images']);
   gulp.watch('dev/images/sp/*.+(png|jpg|jpeg|gif|svg|ico)', ['width']);
 });
+
+gulp.task('default', ['images']);
+gulp.task('default', ['width']);
