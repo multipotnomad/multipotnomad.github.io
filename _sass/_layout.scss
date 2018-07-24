@@ -505,7 +505,8 @@ a.share-button {
     padding: 0px 10px;
     color: #eee;
     border-radius: 4px;
-    opacity: 0.9
+    opacity: 0.9;
+    line-height: 2em;
 }
 .share-button {
     display: inline-block;
@@ -515,10 +516,44 @@ a.share-button {
 a.share-button:hover {
     opacity: 1;
 }
-
+i {
+  padding-right: 0.5em;
+}
 
 #share-box-container {
     margin: 2em 0em;
+}
+
+// PageNavigation
+.PageNavigation {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: space-around;
+  .prev,
+  .next {
+    position: relative;
+  }
+  .prev::before,
+  .next::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 30px;
+    position: absolute;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .prev::before {
+    content: "\f104";
+    left: -29px;
+  }
+  .next::before {
+    content: "\f105";
+    right: -23px;
+  }
+  .fs-s {
+    font-size: 0.7em;
+  }
 }
 
 //sign up form in about page start
