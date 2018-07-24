@@ -87,7 +87,7 @@
     font-weight: 100;
     font-size: 18px;
     position: absolute;
-    bottom: -56px;
+    top: 400px;
     right: 0;
     left: 0;
     margin: auto;
@@ -127,6 +127,10 @@
         &:not(:last-child) {
             margin-right: 20px;
         }
+    }
+    .current {
+      color: #555;
+      font-size: 1.1em;
     }
 
     .page-link:hover {
