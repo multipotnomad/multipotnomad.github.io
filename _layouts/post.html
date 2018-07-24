@@ -2,6 +2,13 @@
 layout: default
 comments: true
 ---
+<nav class="site-nav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a class="page-link" href="{{ site.url }}/">最新記事</a>
+    <a class="page-link" href="{{ site.url }}/posts">記事一覧</a>
+    <a class="page-link" href="{{site.url}}/about/">このサイトについて</a>
+    <a class="page-link" href="{{site.url}}/contact/">お問い合わせ</a>
+</nav>
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
@@ -16,4 +23,9 @@ comments: true
 
 </article>
 {% include share.html %}
-{% if page.comments %}{% include disqus.html %}{% endif %}
+<div
+class="just-comments"
+data-locale="ja"
+data-apikey="675e9cc5-75d3-4067-919d-f0732f28b21a">
+</div>
+<script async src="https://just-comments.com/w.js"></script>

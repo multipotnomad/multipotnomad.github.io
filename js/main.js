@@ -27,6 +27,6 @@ function closeNav() {
 
 
 // disqus to japanese
-var disqus_config = function () {
-  this.language = "ja";
-};
+// var disqus_config = function () {
+//   this.language = "ja";
+// };
