@@ -1,9 +1,10 @@
 ---
 layout: post
 title: Documentation
+
 ---
 
-* Do not remove this line (it will not be displayed) 
+* Do not remove this line (it will not be displayed)
 {:toc}
 
 # Features
@@ -35,7 +36,7 @@ You have to create a new ``gh-pages`` branch using the master branch. Go back to
 
 Now, go to settings and check the **Github Pages** section. You should see a URL where the blog is hosted.
 
-This process will host the theme as a **Project Page**. You can also download the files for local development. 
+This process will host the theme as a **Project Page**. You can also download the files for local development.
 
 Default theme will look like this
 
@@ -64,7 +65,7 @@ color-2: '#159957'
 
 Remember, while developing locally, every change you make in **_config.yml** is applied only if you restart ``jekyll serve`` process.
 
-## Font 
+## Font
 The default font is Source sans serif. It is hardcoded instead of downloading from Google fonts. This speeds up the theme a little bit. You can change this but I recommend not to.
 
 ## Logo
