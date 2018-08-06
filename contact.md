@@ -3,13 +3,7 @@ layout: page
 title: お問い合わせ
 permalink: /contact/
 ---
-<nav class="site-nav">
-    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-    <a class="page-link" href="{{ site.url }}/">最新記事</a>
-    <a class="page-link" href="{{ site.url }}/posts">記事一覧</a>
-    <a class="page-link" href="{{site.url}}/about/">このサイトについて</a>
-    <a class="current page-link" href="{{site.url}}/contact/">お問い合わせ</a>
-</nav>
+{% include nav.html %}
 
 メッセージやご質問、お問い合わせ等ございましたらお気軽にご記入ください。
 

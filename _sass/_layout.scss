@@ -128,10 +128,10 @@
             margin-right: 20px;
         }
     }
-    .current {
-      color: #555;
-      font-size: 1.1em;
-    }
+    // .is-current {
+    //   color: #555;
+    //   font-size: 1.1em;
+    // }
 
     .page-link:hover {
         text-decoration: none;
@@ -544,12 +544,12 @@ i {
     vertical-align: middle;
   }
   .prev::before {
-    content: "\f104";
-    left: -29px;
-  }
-  .next::before {
     content: "\f105";
     right: -23px;
+  }
+  .next::before {
+    content: "\f104";
+    left: -29px;
   }
   .fs-s {
     font-size: 0.7em;
